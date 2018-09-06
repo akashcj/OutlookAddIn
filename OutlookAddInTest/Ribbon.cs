@@ -7,6 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using Office = Microsoft.Office.Core;
 
+
 // TODO:  Follow these steps to enable the Ribbon (XML) item:
 
 // 1: Copy the following code block into the ThisAddin, ThisWorkbook, or ThisDocument class.
@@ -58,6 +59,17 @@ namespace OutlookAddInTest
         {
             FirstForm f1 = new FirstForm();
             f1.Show();
+        }
+
+        public stdole.IPictureDisp loadRibbonImage(string imageName)
+        {
+            //code to convere the image name into a picture 
+            return null;
+        }
+
+        public System.Drawing.Bitmap getDoSomething2Image(Microsoft.Office.Core.IRibbonControl control)
+        {
+            return Properties.Resources.CustomEYOS;
         }
 
         #endregion
