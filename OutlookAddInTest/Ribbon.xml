@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab idMso="TabMail">
+                <group id="group1" label="EY OS Law">
+                    <button id="button1" label="Do Something" showImage="false" />
+                </group>
+            </tab>
+            <tab idMso="TabAddIns">
+                <group id="group2" label="EY OS Law">
+                    <button id="button2" label="Do Something2" showImage="false" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
