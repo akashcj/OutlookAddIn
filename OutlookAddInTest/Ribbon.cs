@@ -54,6 +54,12 @@ namespace OutlookAddInTest
             this.ribbon = ribbonUI;
         }
 
+        public void DoSomething(Office.IRibbonControl control)
+        {
+            FirstForm f1 = new FirstForm();
+            f1.Show();
+        }
+
         #endregion
 
         #region Helpers

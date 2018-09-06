@@ -4,12 +4,17 @@
         <tabs>
             <tab idMso="TabMail">
                 <group id="group1" label="EY OS Law">
-                    <button id="button1" label="Do Something" showImage="false" />
+                    <button id="button1"
+                            label="Do Something"
+                            showImage="true"
+                            size="large"
+                            imageMso="MenuPublish"
+                            onAction="DoSomething"/>
                 </group>
             </tab>
             <tab idMso="TabAddIns">
                 <group id="group2" label="EY OS Law">
-                    <button id="button2" label="Do Something2" showImage="false" />
+                    <button id="button2" label="Do Something2" showImage="true" size="large" imageMso="HappyFace" />
                 </group>
             </tab>
         </tabs>

@@ -51,13 +51,15 @@
             // group1
             // 
             this.group1.Items.Add(this.button1);
-            this.group1.Label = "EY OS Law";
+            this.group1.Label = "Custom Group Name";
             this.group1.Name = "group1";
             // 
             // button1
             // 
-            this.button1.Label = "Do Something";
+            this.button1.ImageName = "MenuPublish";
+            this.button1.Label = "My Button";
             this.button1.Name = "button1";
+            this.button1.ShowImage = true;
             // 
             // Ribbon1
             // 
